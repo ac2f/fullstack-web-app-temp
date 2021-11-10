@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "wildmarketim"]
+	url = https://github.com/mustafw/wildmarketim.git
+	fetch = +refs/heads/*:refs/remotes/wildmarketim/*
+[remote "master"]
+	url = https://github.com/mustafw/wildmarketim-temp.git
+	fetch = +refs/heads/*:refs/remotes/master/*
+[remote "origin"]
+	url = https://github.com/mustafw/wildmarketim-temp.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

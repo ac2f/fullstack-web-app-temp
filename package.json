@@ -1,0 +1,26 @@
+{
+  "name": "basent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "server": "npm start --prefix ./server",
+    "client": "npm start --prefix ./client",
+    "start": "npx concurrently \"npm:server\" \"npm:client\"",
+    "test": "echo \"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "basentshop.com"
+  },
+  "keywords": [
+    "find"
+  ],
+  "author": "mustafw",
+  "license": "ISC",
+  "dependencies": {
+    "aes256": "^1.1.0",
+    "concurrently": "^6.2.1",
+    "serve": "^12.0.0"
+  }
+}
